@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just Do It</title>
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&family=Poppins:wght@400;500;600&family=Oswald:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="script.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu-icon">
+        <img src="images/burger-bar.png" alt="menu icon" />
+      </div>
+      <div id="logo">
+        <h1>Just Do It</h1>
+      </div>
+      <div class="night-btn"></div>
+    </header>
+
+    <div class="section">
+      <aside class="sidebar">
+        <div class="upper-sidebar">
+          <h2 class="heading">Home</h2>
+
+          <div class="item upper-sidebar-item" id="all-tasks">
+            <img src="images/inbox.png" alt="inbox" />
+            <span class="item-name">All Tasks</span>
+          </div>
+
+          <div class="item upper-sidebar-item" id="today">
+            <img src="images/today1.png" alt="today" />
+            <span class="item-name">Today</span>
+          </div>
+
+          <div class="item upper-sidebar-item" id="weekly">
+            <img src="images/week2.png" alt="week" />
+            <span class="item-name">Next 7 Days</span>
+          </div>
+
+          <div class="item upper-sidebar-item" id="important">
+            <img src="images/star.png" alt="star" />
+            <span class="item-name">Important</span>
+          </div>
+        </div>
+
+        <div class="lower-sidebar">
+          <h2 class="heading">Projects</h2>
+          <div class="all-items"></div>
+          <button id="project-submit-btn" class="btn-item">
+            <img src="images/add.png" alt="add" />
+            Add Project
+          </button>
+        </div>
+      </aside>
+
+      <main class="main-section">
+        <section class="banner">
+          <h2 class="banner-head">Random Text</h2>
+        </section>
+
+        <div class="add-new-task">
+          <img src="images/more.png" alt="add task" />
+          <p>Add Task</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
